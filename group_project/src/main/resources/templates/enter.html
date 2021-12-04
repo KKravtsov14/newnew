@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table cellspacing="0" id="maket">
+    <tr>
+        <td id="leftcol">xui</td>
+
+    <td id="rightcol">
+    <td id="partcolleft">
+        <form method="GET" name="filter" action="http://example.com/catalog/">
+            <p>Фамилия</p>
+            <label><input type="text" name="secondName" value="" checked></label><br>
+            <p>Имя</p>
+            <label><input type="text" name="firstName" value="" checked></label><br>
+            <p>Отчество</p>
+            <label><input type="text" name="lastName" value="" checked></label><br>
+            <p>Специальность</p>
+            <label><select name="spec">
+                <option value="ter"> Терапевт </option>
+                <option value="her"> Хирург </option>
+                <option value="pro"> Проктолог </option>
+            </select></label><br>
+            <p>Рабочие дни</p>
+            <label><input type="checkbox" name="1">пн</label>
+            <label><input type="checkbox" name="2">вт</label>
+            <label><input type="checkbox" name="3">ср</label>
+            <label><input type="checkbox" name="4">чт</label>
+            <label><input type="checkbox" name="5">пт</label>
+            <label><input type="checkbox" name="6">сб</label>
+            <label><input type="checkbox" name="7">вс</label>
+            <p>Время работы</p>
+            <div class="sizeOfTimeBlock"> с <label><input type="text" name="from" id="sizeOfTimeBlock"></label> до <label>
+            <input type="text" name="to" class="sizeOfTimeBlock"></label></div>
+            <label><input type="submit" value="Сохранить"></label>
+
+        </form>
+
+    </td>
+        <td id="partcolright">
+            <label><img src="profile_picture.jpg" alt="profile_picture.jpg"/></label><br>
+            <label><a href="photo_insert.html">Загрузить фото</a></label><br>
+
+        </td>
+    </tr>
+</table>
+
+
+</body>
+</html>
